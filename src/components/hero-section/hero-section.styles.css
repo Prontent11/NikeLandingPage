@@ -1,0 +1,122 @@
+.main-container{
+    padding: 15px 60px;
+    display: flex;
+    width: 100%;
+    
+
+}
+
+.right-container-header{
+    line-height: 0.8;
+}
+.right-container-header h1:first-child{
+font-family: GT Walsheim Pro;
+font-size: 50px;
+font-weight: 1000;
+line-height: 90px;
+letter-spacing: 0em;
+border-left: 5px solid black;
+padding: 0px 5px;
+
+}
+.right-container-header h1:nth-child(2){
+    font-family: GT Walsheim Pro;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: red;
+    border-left: 5px solid red;
+    padding: 5px;
+    z-index: 100;
+    
+}
+.right-container-body{
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.right-container-body .content{
+    width: 500px;
+    /* height: 150px; */
+    
+}
+.right-container-body .content p{
+font-family: GT Walsheim Pro;
+font-size: 20px;
+font-style: italic;
+font-weight: 300;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.checkout{
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 35px;
+}
+
+.addTocart{
+    padding: 10px 15px;
+    font-size: 15px;
+    background: #F2F2F2;
+box-shadow: 4px 7px 7px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+border: none;
+outline: none;
+}
+.addTocart:hover{
+    background: black;
+    color: white;
+}
+
+.left-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
+.left-container-image img{
+    height: 1000px;
+    position: absolute;
+    right: -75%;
+    bottom: -40%;
+    
+}
+
+.right-container-cards{
+    width: 400px;
+    
+    /* height: 100; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right-container-card{
+    margin-top: 70px;
+    padding: 10px 15px;
+    font-size: 15px;
+    background: #F2F2F2;
+    box-shadow: 4px 7px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+}
+.right-container-card img{
+    margin-top: -70%;
+    height: 120px;
+}
+.right-container-card p{
+    margin-top: -20%;
+}
